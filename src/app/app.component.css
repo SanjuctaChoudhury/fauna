@@ -1,0 +1,187 @@
+#nav-bar{
+    position:sticky;
+    top:0;
+    }
+    .navbar{
+        background-color:rgb(240, 116, 184);
+     }
+  
+  .navbar-brand{
+    height:40px;
+    width: 40px;
+    font-weight: bolder;
+    padding-left: 40px;
+    font-style: italic;
+  
+  }
+  .nav-item {
+    padding-left: 20px;
+  }
+  
+  .nav-link{
+    font-size: 1.2rem;
+    color:black;
+  
+  }
+  #navbar  li a:hover{
+    color:black;
+  }
+  .slogan h1{
+      font-size: 60px;
+      text-decoration: wavy;
+      color:rgb(233, 223, 223);
+      font-family: cursive;
+      text-align: center;
+      padding-top: 200px;
+      
+
+  }
+  .slider
+  {
+    padding-bottom: 300px;
+  }
+  .carousel-inner
+  {
+      padding-top: 200px;
+  }
+  .slide{
+    width:100%;
+   
+    border-radius: 0%;
+  }
+  .carousel-caption h3{
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:200px;
+    
+  }
+  .aboutus
+  {
+      padding-top: 200px;
+      padding-left: 50px;
+      
+  }
+  .about p{
+      color:rgb(233, 223, 223);
+      font-size: 30px;
+
+  }
+  .btn
+  {
+      background-color: rgb(240, 116, 184);
+     
+  }
+  .card {
+    position: relative;
+   
+    padding: 45px 50px 25px 60px;
+    margin-top: 200px;
+    background-color:rgb(240, 116, 184);
+    border-radius: 10px;
+    color: #fff
+}
+.zoom
+{
+    transition: transform 0.9s;
+}
+.zoom:hover {
+    transform: scale(1.2); 
+  }
+
+.post-txt {
+    font-size: 20px;
+    margin-bottom: 0
+}
+
+.quote-img {
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    width: 30px;
+    height: 30px
+}
+
+
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #212121;
+    margin-left: 85px
+}
+
+.fit-image {
+    width: 100%;
+    
+}
+
+.profile-pic {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    left: 65px;
+    margin-top: 15px
+}
+
+.profile-name {
+    position: absolute;
+    font-size: 22px;
+    margin-top: 60px;
+    left: 210px;
+    color: black;
+}
+.centres
+{
+ margin-top: 300px;
+ width:100%;
+ height:400px;
+ opacity:0.8;
+    
+}
+.button{
+   text-align: center;
+   }
+   .getintouch{
+     padding-bottom: 100px;
+   }
+.fa-envelope
+{
+  font-size: 100px;
+  padding-top: 100px;
+  padding-left: 100px;
+  color:rgb(240, 151, 200);
+}
+.fa-phone
+{
+  font-size: 100px;
+  padding-left: 300px;
+  padding-top: 100px;
+  color:rgb(240, 151, 200);
+}
+.icon1 p{
+  padding-left: 150px;
+ font-size: 30px;
+  padding-top: 50px;
+  color:white;
+}
+.icon2 p{
+  padding-left: 50px;
+  font-size: 30px;
+  padding-top: 50px;
+  color:white;
+
+}
+@media screen and (max-width: 900px) {
+  .carousel-caption h3
+  {
+    font-size: small;
+  }
+}
+
+    
+
+    
